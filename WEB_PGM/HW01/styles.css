@@ -62,7 +62,10 @@ a:hover {
     background-color: #fff;
 }
 
-.horizontal-sections {
+
+
+
+.sections {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
