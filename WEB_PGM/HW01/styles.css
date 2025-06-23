@@ -1,0 +1,80 @@
+body {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.image { 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    margin: 10px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.highlight {
+    color: rgb(106, 225, 165);
+    font-weight: bold;
+}
+
+.quote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #ccc;
+    background-color: #fff;
+}
+
+.horizontal-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section {
+    flex: 1 1 300px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    min-width: 250px;
+}
